@@ -2,10 +2,6 @@
     margin: 0;
 }
 
-html,body{
-
-}
-
 nav{
     background-color: darkmagenta;
     margin-left: 35px;
@@ -14,7 +10,8 @@ nav{
 a{
     text-decoration: none;
     color: whitesmoke;
-    text-align: center;
+    margin-left: 8px;
+    /*text-align: center;*/
 }
 
 
@@ -24,10 +21,9 @@ a{
     background-size: 100% 100%;
     /*background-position: left;*/
     box-sizing: border-box;
-    /*display: flex;*/
     color: whitesmoke;
     text-align: center;
-    height: 100px;
+    height: 225px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,29 +36,58 @@ h1{
 
 
 .samurai{
-
     min-height: 100px;
-    max-width: 225px;
+    max-width: 350px;
     background-color: darkorchid;
     color: whitesmoke;
     border-radius: 2px;
     box-sizing: border-box;
-    /*box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.18);*/
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.18);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     margin: 8px;
 }
 
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    /*height: 400px;*/
+}
 
+.textbox{
+    box-sizing: border-box;
+    background-color: darkviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-bottom: 20px;
+}
 
+p{
+    width: 650px;
+    color: whitesmoke;
+    text-align: center;
+}
 
-
-
-
-
-
+.lowerbox{
+    min-height: 100px;
+    max-width: 350px;
+    background-color: darkorchid;
+    color: whitesmoke;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
 
 footer{
@@ -70,5 +95,4 @@ footer{
     color: whitesmoke;
     text-align: center;
     width: 100%;
-
 }
