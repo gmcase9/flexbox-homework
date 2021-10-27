@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+
+html,body{
+
+}
+
+nav{
+    background-color: darkmagenta;
+    margin-left: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+.firstbox{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeO094CZ6FhtjxNLrmvEyiUJwvhxAk3EPmaA&usqp=CAU");
+    /*background-size: cover;*/
+    background-size: 100% 100%;
+    /*background-position: left;*/
+    box-sizing: border-box;
+    /*display: flex;*/
+    color: whitesmoke;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+h1{
+
+}
+
+
+.samurai{
+
+    min-height: 100px;
+    max-width: 225px;
+    background-color: darkorchid;
+    color: whitesmoke;
+    border-radius: 2px;
+    box-sizing: border-box;
+    /*box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.18);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: darkmagenta;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+
+}
